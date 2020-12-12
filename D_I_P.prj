@@ -1,0 +1,184 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\Karshenasi\term 5\pardazesh tasavir\GUI\D_I_P\D_I_P.prj" location="D:\Karshenasi\term 5\pardazesh tasavir\GUI\D_I_P" name="D_I_P" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>D_I_P</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Arash Azimi Fard , Hamid Reza Es'haghi</param.authnamewatermark>
+    <param.email>arashazimi0032@gmail.com</param.email>
+    <param.company>K.N. University of Tec.</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\K.N. University of Tec.\D_I_P\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\D_I_P\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\D_I_P\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\D_I_P\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\D_I_P</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\D_I_P.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\About.fig</file>
+      <file>${PROJECT_ROOT}\About.m</file>
+      <file>${PROJECT_ROOT}\bands_gray.fig</file>
+      <file>${PROJECT_ROOT}\bands_gray.m</file>
+      <file>${PROJECT_ROOT}\bands_rgb.fig</file>
+      <file>${PROJECT_ROOT}\bands_rgb.m</file>
+      <file>${PROJECT_ROOT}\brightness.fig</file>
+      <file>${PROJECT_ROOT}\brightness.m</file>
+      <file>${PROJECT_ROOT}\contrast_gray.fig</file>
+      <file>${PROJECT_ROOT}\contrast_gray.m</file>
+      <file>${PROJECT_ROOT}\contrast_RGB.fig</file>
+      <file>${PROJECT_ROOT}\contrast_RGB.m</file>
+      <file>${PROJECT_ROOT}\D_I_P.fig</file>
+      <file>${PROJECT_ROOT}\D_I_P.m</file>
+      <file>${PROJECT_ROOT}\dftfilt.m</file>
+      <file>${PROJECT_ROOT}\dftuv.m</file>
+      <file>${PROJECT_ROOT}\function_transformation.fig</file>
+      <file>${PROJECT_ROOT}\function_transformation.m</file>
+      <file>${PROJECT_ROOT}\histogram_equalization.fig</file>
+      <file>${PROJECT_ROOT}\histogram_equalization.m</file>
+      <file>${PROJECT_ROOT}\hpfilter.m</file>
+      <file>${PROJECT_ROOT}\image_resize.fig</file>
+      <file>${PROJECT_ROOT}\image_resize.m</file>
+      <file>${PROJECT_ROOT}\info.fig</file>
+      <file>${PROJECT_ROOT}\info.m</file>
+      <file>${PROJECT_ROOT}\inverse_histogram.fig</file>
+      <file>${PROJECT_ROOT}\inverse_histogram.m</file>
+      <file>${PROJECT_ROOT}\logo.PNG</file>
+      <file>${PROJECT_ROOT}\lpfilter.m</file>
+      <file>${PROJECT_ROOT}\Morphological_operations.fig</file>
+      <file>${PROJECT_ROOT}\Morphological_operations.m</file>
+      <file>${PROJECT_ROOT}\Noise_and_smoothing.fig</file>
+      <file>${PROJECT_ROOT}\Noise_and_smoothing.m</file>
+      <file>${PROJECT_ROOT}\one_D_fourier_transformation.fig</file>
+      <file>${PROJECT_ROOT}\one_D_fourier_transformation.m</file>
+      <file>${PROJECT_ROOT}\open_MATLAB_pictures.fig</file>
+      <file>${PROJECT_ROOT}\open_MATLAB_pictures.m</file>
+      <file>${PROJECT_ROOT}\paddedsize.m</file>
+      <file>${PROJECT_ROOT}\radiometric_resolution.fig</file>
+      <file>${PROJECT_ROOT}\radiometric_resolution.m</file>
+      <file>${PROJECT_ROOT}\rectangle1.m</file>
+      <file>${PROJECT_ROOT}\Region_Filling.fig</file>
+      <file>${PROJECT_ROOT}\Region_Filling.m</file>
+      <file>${PROJECT_ROOT}\sharpening_filters.fig</file>
+      <file>${PROJECT_ROOT}\sharpening_filters.m</file>
+      <file>${PROJECT_ROOT}\splash.png</file>
+      <file>${PROJECT_ROOT}\threshold.fig</file>
+      <file>${PROJECT_ROOT}\threshold.m</file>
+      <file>${PROJECT_ROOT}\tofloat.m</file>
+      <file>${PROJECT_ROOT}\Two_D_Fourier_Tranformation.fig</file>
+      <file>${PROJECT_ROOT}\Two_D_Fourier_Tranformation.m</file>
+      <file>${PROJECT_ROOT}\ZoiLogo.png</file>
+      <file>${PROJECT_ROOT}\ZoiLogosmall.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\D_I_P\for_testing" name="D_I_P.exe" optional="false">D:\Karshenasi\term 5\pardazesh tasavir\GUI\D_I_P\D_I_P\for_testing\D_I_P.exe</file>
+      <file location="${PROJECT_ROOT}\D_I_P\for_testing" name="splash.png" optional="false">D:\Karshenasi\term 5\pardazesh tasavir\GUI\D_I_P\D_I_P\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\D_I_P\for_testing" name="readme.txt" optional="true">D:\Karshenasi\term 5\pardazesh tasavir\GUI\D_I_P\D_I_P\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
